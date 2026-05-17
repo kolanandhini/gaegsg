@@ -1,0 +1,68 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+
+  height:100vh;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  background:
+  linear-gradient(
+  135deg,
+  #020617,
+  #111827,
+  #1e293b
+  );
+
+  font-family:Arial;
+
+  overflow:hidden;
+}
+
+/* GAME CONTAINER */
+
+.game-container{
+
+  text-align:center;
+
+  color:white;
+}
+
+/* TITLE */
+
+h1{
+
+  font-size:50px;
+
+  color:#38bdf8;
+
+  margin-bottom:10px;
+}
+
+h2{
+
+  color:#c4f472;
+
+  margin-bottom:25px;
+}
+
+/* CANVAS */
+
+canvas{
+
+  background:#222;
+
+  border:6px solid #38bdf8;
+
+  border-radius:20px;
+
+  box-shadow:
+  0 0 30px rgba(56,189,248,0.5);
+
+}
