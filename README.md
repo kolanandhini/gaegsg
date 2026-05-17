@@ -12,4 +12,4 @@ This is a simple car game built using HTML, CSS, and JavaScript.
 Open index.html in your browser
 
 ## Live Demo
-(Add your Netlify link here)
+(car-game-project.netlify.app)
